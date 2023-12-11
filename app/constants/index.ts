@@ -80,14 +80,17 @@ export const Socials = [
   {
     name: "Discord",
     src: "/instagram.svg",
+    route: 'https://www.instagram.com/doni_jacks/'
   },
   {
     name: "Facebook",
     src: "/facebook.svg",
+    route: 'https://www.facebook.com/'
   },
   {
     name: "Instagram",
     src: "/discord.svg",
+    route: 'https://discord.com/'
   },
 ];
 export const Projects = [

@@ -51,7 +51,7 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Framer Motion",
+    name: "Framer Motion9",
     Image: "/framer.png",
     width: 80,
     height: 80,
@@ -85,7 +85,7 @@ export const Socials = [
   {
     name: "Facebook",
     src: "/facebook.svg",
-    route: 'https://www.facebook.com/'
+    route: 'https://www.facebook.com/andoni.resendizj/'
   },
   {
     name: "Instagram",

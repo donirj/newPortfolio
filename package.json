@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "email": "email dev --dir src/emails"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-email/button": "^0.0.13",
+    "@react-email/html": "^0.0.7",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-email": "^1.10.0"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -98,6 +98,7 @@ export const Projects = [
     title: "Modern Nextjs Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/NextWebsite.png",
+    route: "https://keen-murdock-04411d.netlify.app/"
   },
   {
     title: "Space Themed Website",
@@ -108,6 +109,7 @@ export const Projects = [
     title: "Modern Nextjs Portfolio",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/WebPortfolio.png",
+    route: "https://rococo-lamington-84a27e.netlify.app/login"
   },
   {
     title: "Matrix themed Website",

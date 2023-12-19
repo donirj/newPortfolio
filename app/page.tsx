@@ -7,36 +7,35 @@ export default function Home() {
       <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage: "url(/main-bg.webp)"}}>
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className='text-[50px] text-white front-semibold'>
-              Make anything possible with
+          Front end developer, passionate for creating
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
                 {" "}
-                Web development
+                digital experiences
               </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-          Lorem ipsum dolor sit amet, consectetur 
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Turning ideas into digital experiences. High-quality web development to elevate your online presence 
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link 
               href="/my-skills" 
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
               >
-              learn more
+              Technologies
             </Link>
             <Link 
               href="/my-projects" 
               className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
               >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
-              my projects
+              My projects
             </Link>
             <Link 
               href="/contact-me" 
               className="rounded-[20px] group relative bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
               >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
-              contact me
+              Contact
             </Link>
           </div>
         </div>
@@ -69,6 +68,7 @@ export default function Home() {
               height={300}
               width={300}
               className='absolute right-55 top-40'
+            
             />
 
             <Image src="/cliff.webp" alt='cliff' width={480} height={480} />

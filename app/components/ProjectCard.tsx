@@ -35,7 +35,8 @@ const ProjectCard = ({ image, title, text }: Props) => {
                 <div className='absolute inset-0 w-full h-full rounded-md bg-black opacity-0 group-hover:opacity-40' />
                 <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center'>
                 Learn more &gt;
-                </div>
+                </div>´
+                
             </div>
             <div 
             style={{backgroundImage: `url(${image})`}}

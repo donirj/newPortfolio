@@ -78,7 +78,7 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
+    name: "instagram",
     src: "/instagram.svg",
     route: 'https://www.instagram.com/doni_jacks/'
   },
@@ -88,28 +88,29 @@ export const Socials = [
     route: 'https://www.facebook.com/andoni.resendizj/'
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
-    route: 'https://discord.com/'
+    name: "Github",
+    src: "./github11.svg",
+    route: 'https://github.com/donirj'
   },
 ];
 export const Projects = [
   {
     title: "Modern Nextjs Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    src: "memory.png",
     route: "https://keen-murdock-04411d.netlify.app/"
   },
   {
-    title: "Space Themed Website",
+    title: "Pokedex api consume",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/pokedex.png",
+    route: "https://vocal-moonbeam-7d06b6.netlify.app/"
   },
   {
-    title: "Modern Nextjs Portfolio",
+    title: "ecommerce react.js practice",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
-    route: "https://rococo-lamington-84a27e.netlify.app/login"
+    src: "/blogfirebase.png",
+    route: "https://tiny-begonia-25a38c.netlify.app/"
   },
   {
     title: "Matrix themed Website",
